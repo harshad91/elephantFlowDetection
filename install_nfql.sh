@@ -31,7 +31,10 @@ sudo make install
 
 echo "Done!"
 
-sudo docker run -i -t --privileged --rm hadoop_ele
-gcc -Wall -o test mahout_agent.c -lnfnetlink -lnetfilter_queue -lpthread
-sudo iptables -A OUTPUT -p ip -j NFQUEUE --queue-num 0
+
+# Following commands are needed to start the agents. Hence commented
+# TODO Create new file
+#sudo docker run -i -t --privileged --rm hadoop_ele
+#gcc -Wall -o test mahout_agent.c -lnfnetlink -lnetfilter_queue -lpthread
+#sudo iptables -A OUTPUT -p ip -j NFQUEUE --queue-num 0
 #iptables –flush
