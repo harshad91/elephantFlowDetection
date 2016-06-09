@@ -5,4 +5,5 @@ A network flow can be categorized as an elephant when it is long lasting and ban
 The capabilities of netfilter_queue library can be exploited by the hosts to tag/mark the elephant flow packets on host. SDN controller can calculate and install the best route for these tagged flows.
 
 **Installing NFQL **
+    Following command will perform the required installations
     sudo ./install_nfql.sh
